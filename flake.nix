@@ -42,6 +42,7 @@
                 inDirectory "tests" ||
                 hasPrefix "Cargo" baseName ||
                 baseName == "info.toml";
+
             };
 
             cargoLock.lockFile = ./Cargo.lock;
